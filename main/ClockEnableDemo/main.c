@@ -1,3 +1,4 @@
+/* To write a value in the CR1 Register of ADC */
 
 #include "stm32f10x.h"
 
