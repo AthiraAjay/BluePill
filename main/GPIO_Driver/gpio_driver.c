@@ -1,8 +1,8 @@
 /*************BLUE PILL SPECIFIC HEADER FILE**************           
- *************				DEFINITION						**************           
+ *************	DEFINITION     		    **************           
  * This driver file is specifically created for          *
- * STM32F103CT Blue Pill MCU .         									 *
- * Author : Athira Ajayakumar														 *
+ * STM32F103CT Blue Pill MCU .         	        	 *
+ * Author : Athira Ajayakumar				 *
  *********************************************************/
 
 #include "gpio_driver.h"
@@ -10,15 +10,15 @@
 
 /*********************************************************
  * FUNCTION NAME : gpio_clock_config()                   *
- *																											 *
+ *							 *																				 *
  * DESCRIPTION   : ENABLE or DISABLE the GPIO            *
  *                 PORT A,B,C clock                      *
- *                                         							 *
+ *                                         		 *
  * PARAMETERS    : GPIOx  -> Pointer To access GPIO      *
  *                           registers                   *
  *                 enable -> To enable or disaable the   *
- *                           port clock   							 *
- *																											 *
+ *                           port clock   		 *
+ *							 *																				 *
  * RETURN TYPE   : None                                  *
  *********************************************************/ 
 void gpio_clock_config( GPIO_TypeDef *GPIOx, bool enable)
@@ -45,10 +45,10 @@ void gpio_clock_config( GPIO_TypeDef *GPIOx, bool enable)
  *																											 *
  * DESCRIPTION   : ENABLE or DISABLE the Alternate       *
  *                 function clock                        *
- *                                         							 *
+ *                                         		 *
  * PARAMETERS    : enable -> To enable or disable the    *
  *                 alternate function clock              *
- *																											 *
+ *																									 *
  * RETURN TYPE   : None                                  *
  *********************************************************/ 
 void afio_clock_config(bool enable)
